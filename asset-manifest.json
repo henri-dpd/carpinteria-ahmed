@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/carpinteria-ahmed/static/css/main.e6c13ad2.css",
-    "main.js": "/carpinteria-ahmed/static/js/main.d0615114.js",
+    "main.css": "/carpinteria-ahmed/static/css/main.8290c30f.css",
+    "main.js": "/carpinteria-ahmed/static/js/main.be057415.js",
     "static/js/787.f21228e9.chunk.js": "/carpinteria-ahmed/static/js/787.f21228e9.chunk.js",
     "index.html": "/carpinteria-ahmed/index.html",
-    "main.e6c13ad2.css.map": "/carpinteria-ahmed/static/css/main.e6c13ad2.css.map",
-    "main.d0615114.js.map": "/carpinteria-ahmed/static/js/main.d0615114.js.map",
+    "main.8290c30f.css.map": "/carpinteria-ahmed/static/css/main.8290c30f.css.map",
+    "main.be057415.js.map": "/carpinteria-ahmed/static/js/main.be057415.js.map",
     "787.f21228e9.chunk.js.map": "/carpinteria-ahmed/static/js/787.f21228e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d0615114.js"
+    "static/css/main.8290c30f.css",
+    "static/js/main.be057415.js"
   ]
 }
