@@ -2,3 +2,20 @@
     background-color: var(--background);
     color: var(--text-primary);
 }
+
+button{
+    margin: 0;
+    padding: 0;
+    background-color: var(--accent);
+    color: var(--text-secondary);
+    border: 2px var(--text-secondary) solid;
+    border-radius: 10px;
+}
+
+.App{
+    min-height: 90vh;
+    padding: 5% 10% 0 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column;
+}

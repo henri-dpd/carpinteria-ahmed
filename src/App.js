@@ -1,6 +1,11 @@
 
 import './App.css';
-import useLocalStorage from 'use-local-storage'
+import useLocalStorage from 'use-local-storage';
+import {Routes, Route, BrowserRouter as Router} from 'react-router-dom'
+import NavBar from './components/navbar/NavBar'
+import Home from './pages/Home/Home'
+import Gallery from './pages/Gallery/Gallery'
+import Contact from './pages/Contact/Contact'
 
 function App() {
 
@@ -12,23 +17,20 @@ function App() {
     setTheme(newTheme);
   }
 
-
   return (
-    <div className="App" data-theme={theme}>
-      <header className="App-header">
-        <h1>Carpintería Ahmed</h1>
-      </header>
-      <section>
-        <div>
-          <span>{theme} mode </span>
-          <button className='ThemeBtn' onClick={switchTheme}>
-            Switch to {theme} theme
-          </button>
-        </div>
-        <h2>Productos de calidad hecho a medida</h2>
-        <p>Se ofrece los mejores servicios de carpintería a pedido</p>
-      </section>
-    </div>
+    <Router>
+      <div  className="App" data-theme={theme}>
+
+      <NavBar theme={theme} switchTheme={switchTheme} />
+      
+      <Routes>
+          <Route path={'/'} element={<Home />} />
+          <Route path={'/Gallery'}  element={<Gallery />} />
+          <Route path={'/Contact'} element={<Contact />} />
+      </Routes>
+
+      </div>
+    </Router>
   );
 }
 

@@ -14,13 +14,17 @@ code {
 
 :root {
   --background: white;
+  --background-secondary: rgb(224, 224, 224);
   --text-primary: black;
-  --accent: red;
-  --hover: lightgray;
+  --text-secondary: white;
+  --accent: yellowgreen;
+  --hover: green;
 }
 [data-theme="dark"] {
   --background: black;
+  --background-secondary: rgb(66, 66, 66);
   --text-primary: white;
-  --accent: yellow;
-  --hover: gray;
+  --text-secondary: black;
+  --accent: darkorange;
+  --hover: orange;
 }
