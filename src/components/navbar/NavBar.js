@@ -8,9 +8,9 @@ export default function NavBar({theme, switchTheme}) {
     <div className='NavBar'>
         <nav>
             <ul>
-                <li><Link to='/'>Principal</Link></li>
-                <li><Link to='/Gallery'>Gallería</Link></li>
-                <li><Link to='/Contact'>Contacto</Link></li>
+                <li><Link to='/carpinteria-ahmed'>Inicio</Link></li>
+                <li><Link to='/carpinteria-ahmed/gallery'>Gallería</Link></li>
+                <li><Link to='/carpinteria-ahmed/contact'>Contacto</Link></li>
             </ul>
         </nav>
         

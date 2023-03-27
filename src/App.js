@@ -24,9 +24,9 @@ function App() {
       <NavBar theme={theme} switchTheme={switchTheme} />
       
       <Routes>
-          <Route path={'/'} element={<Home />} />
-          <Route path={'/Gallery'}  element={<Gallery />} />
-          <Route path={'/Contact'} element={<Contact />} />
+          <Route path={'/carpinteria-ahmed'} element={<Home />} />
+          <Route path={'/carpinteria-ahmed/gallery'}  element={<Gallery />} />
+          <Route path={'/carpinteria-ahmed/contact'} element={<Contact />} />
       </Routes>
 
       </div>
