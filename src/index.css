@@ -19,6 +19,7 @@ code {
   --text-secondary: white;
   --accent: yellowgreen;
   --hover: green;
+  --background-img: url(../public/img/PORTADA2.jpg);
 }
 [data-theme="dark"] {
   --background: black;
@@ -27,4 +28,5 @@ code {
   --text-secondary: black;
   --accent: darkorange;
   --hover: orange;
+  --background-img: url(../public/img/PORTADA.jpg);
 }

@@ -1,7 +1,9 @@
 
+import './Home.css'
+
 export default function Home(){
     return (
-        <div>
+        <div className="Home">
             <header className="App-header">
                 <h1>Carpintería Ahmed</h1>
             </header>
